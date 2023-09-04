@@ -1,0 +1,239 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400/700/800;
+}
+
+body {
+    width: 80%;
+    font-family: Inter;
+    padding: 65px 150px;
+    font-size: 15px;
+}
+
+.menuBar {
+    max-height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.logo img {
+    width: 4.5vw;
+}
+
+nav {
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-size: 17px;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0 20px 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-right: 15px;
+}
+
+.section section img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.text {
+    width: 50%;
+}
+
+.text span {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 60px;
+    color: hsl(240, 100%, 5%);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: space-between;
+    color: hsl(236, 13%, 42%);
+}
+
+.top button {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 55%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.top button:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+.aside {
+    width: 35%;
+    margin-left: 15px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+aside {
+    padding: 0 25px;
+    color: hsl(36, 100%, 99%);
+    font-weight: 200;
+    font-size: 18px;
+}
+
+aside hr {
+    border: 0.3px thin hsl(36, 100%, 99%);
+}
+
+aside h2 {
+    font-size: 40px;
+    color: hsl(35, 77%, 62%);
+}
+
+.aside-text {
+    padding: 8px 0;
+}
+
+aside p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+aside span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside span:hover {
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 33.33%;
+    margin: 5px;
+}
+
+#two {
+    padding: 0 5px 0 0;
+}
+
+.item section {
+    width: 30%;
+}
+
+.item section img {
+    width: 100%;
+}
+
+.item article {
+    color: hsl(236, 13%, 42%);
+    width: 65%;
+}
+
+.bottom-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.item article h3 {
+    color: hsl(233, 8%, 79%);
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.item article h5 {
+    color: hsl(240, 100%, 5%);
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+}
+
+.item article h5:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+.item article p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 30px;
+}
